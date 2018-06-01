@@ -1,0 +1,64 @@
+<head>
+    <meta charset="utf-8">
+    <title> Trivia Laboratoria </title> <!--Titulo de la pestaña-->
+    <!--<link rel="shortcut icon" href="imag/iconG.jpg"/> <!--Icono de la pestaña-->
+    <!---->
+    <link rel="stylesheet" type="text/css" href="format.css"> <!--Enlace al doc CSS-->
+  </head>
+
+  <body>
+    <script type="text/javascript" src="app.js"></script> <!--Enlace al doc JS-->
+
+    <header> <!--cCabecera-->
+      <h1>BIENVENIDOS USUARIOS</h1>
+      <!--Forma para la incersion de boton de inicio--->
+        <form>
+          <input type="button" value="INICIO" onclick="introducirNombre()">
+        </form>
+      <!--Fin de forma de boton de inicio-->
+      <section id="name"></section>
+      <nav>
+        <!--Listas para las categorias de la trivia -->
+        <ul>
+          <li>Categoria</li>
+          <li>Categoria</li>
+          <li>Tecnologia</li>
+          <li>Categoria</li>
+        </ul>
+      </nav>
+    </header>
+
+    <div>
+      <h2>Trivia</h2> <!--Cabecera de inicio para la trivia-->
+    </div>
+
+    <div>
+      <h3>Respuestas Correctas</h3><!--Zona de respuestas correctas-->
+        <ul>
+          <li id="RC1">R1</li>
+          <li id="RC2">R2</li>
+          <li id="RC3">R3</li>
+        </ul>
+    </div>
+
+    <div>
+      <h3>Respuestas Incorrectas</h3><!--Zona de respuestas incorrectas-->
+      <ul>
+        <li id="RI1">R1</li>
+        <li id="RI2">R2</li>
+        <li id="RI3">R3</li>
+      </ul>
+    </div>
+
+      <section id="zoneSc"></section><!--Seccion para score-->
+      <section id="default"></section><!--Seccion para mensaje de salida-->
+
+  </body>
+
+  <footer><!--Pie de pagina-->
+    <!--Forma para el boton de fin-->
+    <form>
+    <input type="button" value="FIN DE TEST" onclick=refrescarWeb()>
+    </form>
+  </footer>
+  <!--Fin de forma-->
