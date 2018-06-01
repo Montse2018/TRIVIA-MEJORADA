@@ -1,0 +1,76 @@
+body {
+  background: rgb(215, 109, 128);
+}
+h1 {
+  display: inline-block;
+  border: 5px solid rgb(182, 66, 87);
+  background: rgb(215, 202, 205);
+  height: 10%;
+  width: 70%;
+  padding: 2px;
+  margin: 0px;
+}
+form {
+  display: inline-block;
+  border: 5px solid rgb(182, 66, 87);
+  background: rgb(215, 202, 205);
+  height: 10%;
+  width: 20%;
+  padding: 2px;
+  margin: 0px;
+}
+li {
+display: inline-block;
+border: 5px solid rgb(46, 106, 108);
+background: rgb(179, 207, 207);
+height: 10%;
+width: 20%;
+padding: 2px;
+margin: 0px;
+}
+h2 {
+  float: center;
+  display: inline;
+  border: 5px solid rgb(68, 56, 90);
+  background: rgb(198, 185, 221);
+  height: 30%;
+  width: 100%;
+  padding: 2px;
+  margin: 0px;
+}
+h3 {
+  display: inline;
+  border: 5px solid rgb(129, 11, 7);
+  background: rgb(178, 79, 76);
+  height: 15%;
+  width: 40%;
+  padding: 2px;
+  margin: 0px;
+}
+#zoneSc {
+  display: inline-block;
+  border: 5px solid rgb(94, 201, 220);
+  background: rgb(202, 227, 231);
+  height: 15%;
+  width: 40%;
+  padding: 2px;
+  margin: 0px;
+}
+#default {
+  display: inline-block;
+  border: 5px solid rgb(94, 137, 74);
+  background: rgb(162, 196, 146);
+  height: 15%;
+  width: 40%;
+  padding: 2px;
+  margin: 0px;
+}
+#name {
+  display: inline-block;
+  border: 5px solid rgb(244, 190, 6);
+  background: rgb(238, 209, 114);
+  height: 15%;
+  width: 40%;
+  padding: 2px;
+  margin: 0px;
+}
